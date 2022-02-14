@@ -1,0 +1,414 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+
+}
+
+body,html {
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1250px;
+}
+.nav-item{
+    padding: 20px 20px 0px 20px;
+    text-transform: uppercase;
+    
+    
+}
+
+header{
+    z-index: 9999;
+}
+
+li.active a{
+    
+    color: #c9ab81!important;
+}
+
+.nav-link{
+    font-weight: 700;
+    color: white!important;
+}
+
+.nav-scrolled{
+    background-color:#090d0e ;
+}
+
+.bg-image{
+    position: absolute;
+   width: 100%;
+   height: 750px;
+   z-index: -9999;
+   filter: brightness(0.5);
+}
+
+body{
+    background-color: #090d0e;
+    
+  
+}
+
+
+.brown-button{
+    background-color: #c9ab81;
+    padding: 12px 22px 12px 22px;
+    border-radius: 0%;
+    border-color: #c9ab81!important;
+    border-width: 3px!important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+   transition: 0.5s;
+    width:176px;
+    height: 55px;
+    color:#ffffff!important;
+    text-decoration: none!important;
+}
+
+
+.brown-button:hover{
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.hero{
+    min-height: 100%;
+    min-height: 550px;
+    color: white;
+    
+}
+
+.hero a{
+    color:white;
+    font-size:18px;
+    padding: 20px;
+    
+    
+}
+
+.sub-text{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yellowtail', cursive;
+
+font-size: 24px;
+
+    color:#c9ab81;
+}
+
+.main-text{
+    font-size: 60px; 
+    font-weight: 700;
+    color:#ffffff;
+    line-height: 70px;
+}
+
+.grey-text{
+    color:#acb8bb;
+    font-family:"Roboto";
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.about-text p{
+ margin-bottom: 30px;
+}
+.card-section{
+
+    margin-top: -50px;
+}
+.intro-card{
+    border-radius: 3%;
+    padding: 36px 40px;
+    box-shadow: 5px;
+    height: 151px;
+    width: 381px;
+    background-color: #0e1415;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-card-text{
+    margin-left: 10px;
+}
+.intro-card-text h3{
+    color:#ffffff;
+    font-family:"Caviar-Dreams";
+    font-size: 18px;
+    
+}
+.intro-card-text p{
+    margin-top: 12px;
+    color: #7e888a;
+    font-family: "roboto";
+    font-size: 14px;
+    line-height: 22.75px;
+
+}
+
+.hamburger {
+    display: block;
+    width:35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline:none;
+    border: none;
+    z-index: 9999;
+}
+.hamburger .bar, .hamburger:before , .hamburger:after{
+    content: "";
+    display: block;
+    width:120%;
+    height : 4px;
+    background-color: white;
+    margin: 6px 0px;
+    transition: 0.4s;
+    z-index: 9999;
+
+}
+
+.hamburger.is-active::before{
+    transform: rotate(-45deg) translate(-7px,5px);
+}
+
+.hamburger.is-active::after{
+    transform: rotate(45deg) translate(-9px,-7px);
+}
+
+.hamburger.is-active .bar {
+    opacity : 0;
+} 
+
+.mobile-nav{
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 30%;
+    height: 100vh;
+    
+    position: fixed;
+    transition: 0.4s;
+    background-color: #1b0234;
+}
+
+.mobile-nav-small{
+    width: 70%;
+}
+
+.mobile-nav.is-active{
+left:70%;
+}
+
+.body-shift{
+    
+    right:300px;
+}
+
+.hml li{
+    background-color: #1b0234;
+    color: #ffffff;
+    border-bottom: 1px solid #3e0a72;
+}
+
+.hml li A{
+   
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.kitchen-gallery img{
+    box-shadow: 5px;
+    width: 270px;
+    height: 280px;
+}
+
+.section-pad{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.feature-page-row div{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.food-circle{
+    width: 79px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.highlight-price{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    color:#c9ab81;
+    border: #090d0e;
+    border-radius: 100%;
+    background-color: #131a1c ;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.head-food p{
+    font-size: 24px;
+    color:#ffffff;
+}
+
+
+.list-group-item{
+    background-color: #090d0e;
+    border-top: 3px dashed  #131a1c;
+    border-bottom: 2px solid  #131a1c;
+}
+
+.list-header{
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.list-price{
+    color: #c9ab81;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.list-text{
+ color:#acb8bb;
+ font-size: 13px;
+ margin-top: 5px;
+ 
+}
+.video-section{
+    filter: opacity(0.6);
+   height:700px;
+    background-image: url(img/videoimg.jpg);
+    background-size: cover;
+    text-align: center;
+vertical-align: middle;
+line-height: 700px;
+    
+}
+.video-img{
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+   
+
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.map-contact{
+    background-color: #06090a;
+    text-align: center;
+    padding: 80px 0px;
+    
+}
+
+.map-icon{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.big-text{
+    font-size: 24px;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.small-text{
+    color:#839095;
+    font-size: 18px;
+    
+}
+
+.contact-row{
+    min-height: 420px;
+}
+
+.time-list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.time-list-item
+{
+    display: block;
+    
+    text-align: left;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight:700;
+    text-decoration: none;
+    
+}
+
+.time-list-right{
+    display: block;
+    padding-right: 40px;   
+    float:right;
+    text-align: end;
+
+}
+
+.number-text{
+    font-size:3vw;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.number-text span{
+    color: #c9ab81;
+}
+
+.footer-brand{
+   
+    border-bottom: 1px solid #131a1c;
+}
+
+.footer-row div{
+    padding: 40px 0px;
+}
+
+
+.social-icons a{
+    padding: 0px 10px;
+}
+.social-icons {
+    padding: 0px !important;
+}
+
+.footer-list{
+    text-decoration: none;
+    background-color: #050708;
+    padding-left:50px;
+    border:none;
+    font-size: 16px!important;
+}
+
+.footer-list a{
+    text-decoration: none;
+}
+.footer-list a:hover{
+    color: #7e888a;
+}
